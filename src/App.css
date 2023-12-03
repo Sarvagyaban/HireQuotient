@@ -1,0 +1,85 @@
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+h1{text-align: center;}
+
+.search-box {
+  padding: 10px;
+  margin: 10px 0;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+.selected {
+  background-color: #e0e0e0;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+
+#pagination {
+  margin: 10px;
+  position: absolute;
+  right: 0px;
+}
+
+.first-page, .previous-page, .next-page, .last-page, .page-btn {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.page-btn.current {
+  font-weight: bold;
+  background-color: #dcdcdc;
+}
+
+.edit, .delete {
+  margin-right: 5px;
+}
+
+
+.editing {
+  display: none;
+}
+
+.trash{
+  background-color: rgba(255, 0, 0, 0.575);
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  color: white;
+}
+.trash:hover{
+  cursor: pointer;
+  background-color: red;
+}
+
+.edit-mode .editing {
+  display: inline;
+}
+
+.edit-mode .non-editing {
+  display: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 8px;
+}
