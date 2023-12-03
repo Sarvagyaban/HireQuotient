@@ -66,6 +66,8 @@ const App = () => {
 			cells[2].innerHTML = `<td>${newEmail}</td>`;
 			cells[3].innerHTML = `<td>${newRole}</td>`;
 			btn.textContent = ' ';
+			btn.classList.add('fa')
+			btn.classList.add('fa-pencil-square-o')
 
 			const userIndex = users.findIndex(user => user.id === userId);
 			users[userIndex].name = newName;
